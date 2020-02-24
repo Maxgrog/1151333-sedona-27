@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover {
+  color: #a8c9df;
+}
+.site-navigation a:focus {
+  color: #e7e7e7;
+}
+
+.site-navigation a:action {
+  color: #cacaca;
+}
+
+.feature {
+  text-align: center;
+  line-height: 26px;
+  font-size: 21px;
+  text-transform: uppercase;
+  }
+
+.five-rasons {
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.interested {
+  text-align: center;
+  line-height: 26px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.travel-dates {
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.main-footer {
+  color: #000000;
+  background-color: #ffffff;
+  background-pozition: 0, 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts {
+  line-height: 26px;
+  font-size: 21px;
+}
+
+.footer-contacts a:focus  {
+  color: #81b3d2
+}
+
+
+.footer-social li {
+  list-style: none;
+  text-align: center;
+  color: #000000;
+}
+
+.footer-social a {
+  background-color: #81b3d2;
+}
+
+.footer-social a:hover {
+  color: #669ec0;
+}
+
+.footer-social a:focus {
+  color: #81b3d2;
+}
+
+.footer-social a:active {
+  color: #5496bd;
+}
+
+.footer-copyright {
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.footer-copyright a:hover {
+  color: #81b3d2;
+}
+
+.footer-copyright a:focus {
+  color: #81b3d2;
+}
+
+.footer-copyright a:active {
+  color: #c0bebf;
+}
+
+
+.modal {
+  background-color: #766357;
+  width: 568px;
+  height: 86px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.modal p {
+  font-size: 14px;
+  text-align: 26px;
+}
+
+.login-form {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+.adults,
+.kids {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.login-form input:focus {
+  background-color: #ffffff;
+}
+
+.login-form input:hover {
+  background-color: #ebebeb;
+}
+
+.button {
+  background-color: #81b3d2;
+  width: 458px;
+  height: 58px;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+
+.visually-hidden {
+  display: none;
+}
+
+.hotel-name {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
+
+
+.hotel-type {
+  font-size: 14px;
+  line-height: 21px;
+  color: #494949;
+}
+
+.button-1 {
+  color: #ffffff;
+  width: 110px;
+  height: 27px;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #81b3d2;
+  text-transform: uppercase;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #669ec0;
+}
+
+.button-1:active {
+  background-color: #5496bd;
+  color: #88b6d1;
+}
+
+.button-2 {
+  color: #ffffff;
+  width: 142px;
+  height: 27px;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #766357;
+  text-transform: uppercase;
+}
+
+.button-2:hover,
+.button-2:focus {
+  background-color: #604e43;
+}
+
+.button-2:active {
+  background-color: #503e33;
+  color: #857871;
+}
+
+.hotel-name:hover {
+  color: #81b3d2;
+}
+
+.hotel-name:active {
+  color: #b2b2b2;
+}
+
+.rating {
+  font-size: 14px:
+  line-height: 21px;
+  color: #666666;
+  border: 1px solid #f2f2f2;
+  width: 110px;
+  height: 127px;
+  background: #f2f2f2;
+  text-align: right;
+  padding-right:18px;
+  padding-left: 18px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.stars {
+  text-align: right;
+}
