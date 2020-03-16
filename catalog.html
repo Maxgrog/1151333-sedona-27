@@ -8,25 +8,26 @@
     latin-ext" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
- <header>
-   <nav class="main-navigation">
-     <ul class="site-navigation">
-       <li><img src="img/logo-sedona.svg" width="140" height="71"
-         alt="Логотип Седоны»">
-       <li><a href="#">Информация</a></li>
-       <li><a href="#">Фото и видео</a></li>
-       <li><a href="#">Карта штата</a></li>
-       <li><a href="catalog.html">Гостиницы</a></li>
-     </ul>
-   </nav>
-      </header>
-
-      <main>
-        <section>
-          <h2 class="visually-hidden">Варианты</h2>
-            <h3 class="hotel-name">AMARA RESORT & SPA</h3>
-              <a href=""><img src="img/hotel-1.jpg" width="150" height="100"
+<body class="inner-page">
+  <header class="inner-header">
+  <nav class="main-navigation">
+    <ul class="site-navigation">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><img class="navigation-logo" src="img/logo-sedona.svg"
+          width="140" height="71"
+          alt="Логотип Седоны»">
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="catalog.html">Гостиницы</a></li>
+      </ul>
+    </nav>
+     </header>
+     <main>
+        <section class="hotel-options">
+          <div class="hotel-wrapper">
+            <h2 class="visually-hidden">Варианты</h2>
+          <h3 class="hotel-name">AMARA RESORT & SPA</h3>
+          <a href=""><img src="img/hotel-1.jpg" width="150" height="100"
                  alt="">
         <div class="hotel-type">
           <span>Гостиница</span>
@@ -34,6 +35,7 @@
         </div>
           <button class="button-1 button" type="button">Подробнее</button>
           <button class="button-2" type="button">Забронировать</button>
+          <div class="rating-container">
             <span class="rating">Рейтинг: 8.5</span>
             <span class="stars">
               <img src="img/star.svg" alt="4 звезды">
@@ -41,8 +43,11 @@
               <img src="img/star.svg" alt="">
               <img src="img/star.svg" alt="">
             </span>
+          </div>
+          </div>
 
-      <h3 class="hotel-name">DESERT QUAIL INN</h3>
+      <div class="hotel-wrapper">
+        <h3 class="hotel-name">DESERT QUAIL INN</h3>
       <a href=""><img src="img/hotel-2.jpg" width="150" height="100"
          alt="">
           <div class="hotel-type">
@@ -51,13 +56,17 @@
           </div>
             <button class="button-1 button" type="button">Подробнее</button>
             <button class="button-2" type="button">Забронировать</button>
+            <div class="rating-container">
               <span class="rating">Рейтинг: 8.9</span>
               <span class="stars"><img src="img/star.svg" alt="3 звезды">
               <img src="img/star.svg" alt="">
               <img src="img/star.svg" alt="">
             </span>
+          </div>
+          </div>
 
-        <h3 class="hotel-name">VILLAS AT POCO DIABLO</h3>
+          <div class="hotel-wrapper">
+            <h3 class="hotel-name">VILLAS AT POCO DIABLO</h3>
         <a href=""><img src="img/hotel-3.jpg" width="150" height="100"
            alt="">
           <div class="hotel-type">
@@ -66,35 +75,41 @@
           </div>
             <button class="button-1 button" type="button">Подробнее</button>
             <button class="button-2" type="button">Забронировать</button>
+            <div class="rating-container">
               <span class="rating">Рейтинг: 9.2</span>
               <span class="stars"><img src="img/star.svg" alt="2 звезды">
               <img src="img/star.svg" alt="">
+            </div>
             </span>
-      </section>
+          </div>
+        </section>
+
       </main>
 
-      <footer>
-        <div>
-          <span>#visitsedona</span>
+      <footer class="main-footer">
+        <div class="footer-container"
+        <div class="footer-contacts">
+          <span>#visitsedona</span><br>
           <span>тел: +7(495) 666-02-66</span>
         </div>
-          <ul>
-            <li><a href=""><img src="img/twitter.svg"
-              width="17" height="15"
-             alt="Твиттер"></a></li>
-             <li><a href=""><img src="img/fb-icon.svg"
-               width="12" height="22"
-              alt="Фейсбук"></a></li>
-              <li><a href=""><img src="img/youtube.svg"
-                width="20" height="16"
-               alt="Ютуб"></a></li>
-          </ul>
-            <span>Website by
-              <a href="https://htmlacademy.ru">
-                <img src="img/logo-htmlacademy.svg" wigth="115" height="41"
-                 alt="Лого HTML Академии">
-              </a>
-           </span>
-       </footer>
+  <ul class="footer-social">
+    <li><a href="#"><img src="img/twitter.svg"
+      width="17" height="15"
+     alt="Твиттер"></a></li>
+     <li><a href="#"><img src="img/fb-icon.svg"
+       width="12" height="22"
+      alt="Фейсбук"></a></li>
+      <li><a href="#"><img src="img/youtube.svg"
+        width="20" height="16"
+       alt="Ютуб"></a></li>
+  </ul>
+    <span class="footer-copyright">Website by
+      <a href="https://htmlacademy.ru">
+        <img src="img/logo-htmlacademy.svg" wigth="115" height="41"
+         alt="Лого HTML Академии">
+      </a>
+   </span>
+ </div>
+</footer>
     </body>
   </html>
